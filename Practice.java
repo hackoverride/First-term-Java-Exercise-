@@ -42,6 +42,16 @@ public class Practice{
       }
     }
   
+  public static int[] leggTil(int[] samling){
+    int[] temp = new int[samling.length+1];
+    for ( int i = 0; i < samling.length; i++ ){
+      if ( i < samling.length ) {
+      temp[i] = samling[i];} else {temp[i] = 0;}
+      
+    }
+    return temp;
+  }
+  
   
   
 
