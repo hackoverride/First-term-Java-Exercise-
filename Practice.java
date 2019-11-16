@@ -4,7 +4,11 @@ import static java.lang.System.*;
 import java.io.*; //inneholder File, FileWriter og PrintWriter.
 import java.util.*; //inneholder Scanner
 
-// sjekke forskjellige imports som vi bruker normalt i timen.
+/* cast automatically:
+* byte -> short -> char -> int -> long -> float -> double
+* cast manually:
+* double -> float -> long -> int -> char -> short -> byte 
+*/
 
 public class Practice{
   
