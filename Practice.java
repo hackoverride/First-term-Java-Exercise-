@@ -17,10 +17,7 @@ public class Practice{
     
     String innput = showInputDialog("Anngi filnavn");
     showMessageDialog(null, "filbehandling ferdig, ok!");
-    
-    
   }
-  
   
   //EZgraphics metoder:
   const int WIDTH = 400;
@@ -33,8 +30,6 @@ public class Practice{
   drawString("teksten", posX, posY);
   setColor(255,255,255); // setter fargen
   drawLine(posX, posY, endX, endY); //setter en linje.
-  
-  
   
   public static int antallPositiveTall(int[] tab){
       int antall = 0;
@@ -51,13 +46,18 @@ public class Practice{
     for ( int i = 0; i < samling.length; i++ ){
       if ( i < samling.length ) {
       temp[i] = samling[i];} else {temp[i] = 0;}
-      
     }
     return temp;
   }
   
+  public static String stat(int[] arr){
+    int max, min, total, antall;
+    for ( x : arr ){
+      total += x;
+      if (x < min){min = x}
+      if (x > max){max = x}
+      antall++;
+    } return "min = " + min + ", max = " + max + ", gjennomsnitt = " + (total/antall);
+  }
   
-  
-
-
 }
