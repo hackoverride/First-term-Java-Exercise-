@@ -15,5 +15,22 @@ int grid[][] = {{1253, 1232, 1543},
 /* DEFAULT INITIAL VALUE=
 *   numbers are 0, booleans are false and objects like Strings are null...
 */
+int temp = 0;
+for (int i : numbers){
+  temp += i;
+}
+System.out.println(temp);
 
+for (int i = 0; i < cars.length; i++){
+  cars[i] = "CAR";
+}
 
+int sum = grid.length;
+while (0 != sum){
+  sum--;
+  System.out.print(grid[sum][0];
+  System.out.print(grid[sum][1];
+  System.out.print(grid[sum][2];
+}
+
+                   
