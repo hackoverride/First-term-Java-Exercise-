@@ -24,6 +24,14 @@ public class Person{
     return temp;
   }
 
-  
+  public void setAge(int x){
+    this.age = x;
+  }
+  public void setPhone(int x){
+    this.telefon = x;
+  }
+  public void setEmail(String s){
+    this.epost = s;
+  }
 
 }
