@@ -1,0 +1,36 @@
+Gestalt lovene:
+* Forgrunn og bakgrunn
+    Store former er ofte sett på som bakgrunner, tvetydighet kan skape problemer
+* Nærhet
+    Like ting er samlet
+* Likhet
+    Like ting tilhører det samme
+    Baserer strukturen på at det er tydelig og fast struktur
+    Man kan bryte lovene for kontrast mens man fortsatt beholder de andre lovene
+* Sammenkoblinger
+    Sammenkoblinger betyr at de har en sammenheng.
+    Det hjelper oss å se komplekse koblinger og datasett enklere
+* Symetri
+    Igjen skaper like og symetriske figurer nærhet og kobling
+* Kontinuitet
+    Bygger struktur og fjerner kaos. Samler ting på linje og i mønster
+* Lukkethet
+    Former kan bli fullført i hodet på mennesket, kan hjelpe til å lese lav oppløsnings display og logoer.
+* Form og det gylne snitt
+    1,618 og Phi-rutenettet
+* Tilordninger
+    Hva som er koblet til hva bør være intuitivt og samsvare med forventninger.
+* Tekst og lesbarhet
+    Det er lettere å lese små bokstaver da de har forskjellige høydesignaturer.
+    Brødtekst skal alltid skrives med små bukstaver
+    W3C anbefaler maks 80 tegn per linje på nettsider.
+    Linjeavstand bør være 145% av tekst størrelse for å være bedre tilpasset "alle".
+    Er kontrastene lavere enn sort-hvit så anbefales det å øke linjeavstanden.
+* Fonter
+    Brødteksten bør være tilpasset bruken, enten serif eller sans-serif. (times new roman eller arial). Georgia er en enklere variant av fonter for 
+    veldig lavoppløslige skjermer.
+    Overskrifter kan ha mer fancy og detaljerte fonter for kontrast og dramatikk.
+    En skal ikke tildele fast pikseler da skjermer kan tilpasses for folk med mindre syn osv.
+    Bruk alltid EM eller % når en endrer på font størrelsen om man må...
+* Tekst størrelse
+    
