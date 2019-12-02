@@ -34,3 +34,18 @@ while (0 != sum){
 }
 
                    
+// import java.util.Arrays;
+                   
+public int[] removeArray(int n, int[] arr){
+  int pos = 0;
+  int[] temp = new int[arr.length-1]; 
+  for ( int i = 0; i < temp.length; i++) {
+    if (i != n){
+     temp[i] = arr[pos];
+    } else {
+      pos++;
+    }
+    return temp[];
+  }
+  
+}
