@@ -5,9 +5,9 @@
 //Ways to start an array:
 
 int[] numbers = {12, 15, 32, 12, 02, 33, 123, 445, 120, 32}; //Declare and add known value
-String[] names; // I initiate an array but dont start it. 
+String[] names; // I create an array but dont start it. 
 String[] cars = new String[n] //n is the set length of the array.
-boolean[][] xx = {{true, false, true}{false, true, false}}; // multi dim. array...
+boolean[][] xx = {{true, false, true},{false, true, false}}; // multi dim. array...
 int grid[][] = {{1253, 1232, 1543},
                 {12554, 1254, 3254},
                 {3542, 12554, 32566}};
@@ -49,3 +49,15 @@ public int[] removeArray(int n, int[] arr){
   }
   
 }
+  public int[] switch(int[] temp){
+    int[] temp2 = new int[temp.length];
+    
+    for ( int i : temp ){
+      temp2[i] = temp[temp.length-i];
+      
+    }
+    return temp2;
+  
+  }
+                   
+                   
